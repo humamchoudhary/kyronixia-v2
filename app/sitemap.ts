@@ -1,5 +1,4 @@
 import { MetadataRoute } from "next";
-import { siteConfig } from "@/lib/config";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Get all project slugs from Notion
 
