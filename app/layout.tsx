@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  // Basic metadata
+  metadataBase: new URL("https://test.kyronixia.com"), // Basic metadata
   title: {
     default:
       "Kyro - The Future of Digital Innovation | All-in-One Business Platform",
