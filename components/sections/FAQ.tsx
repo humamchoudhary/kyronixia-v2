@@ -80,11 +80,11 @@ export default function FAQ() {
       className="w-full h-min flex flex-col items-center bg-background-sec relative"
     >
       <div className="xl:w-7xl flex flex-row items-stretch justify-between w-full gap-[30px] py-28 z-1">
-        <h1 className="font-bold text-[40px]">
+        <h2 className="font-bold text-[40px]">
           Frequently Asked
           <br />
           Questions
-        </h1>
+        </h2>
         <div className="flex flex-col w-[700px] pl-16 border-l-foreground-light/50 border-l">
           {faqs.map((item, index) => {
             return (

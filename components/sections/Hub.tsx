@@ -64,9 +64,9 @@ export default function Hub() {
       <div className="xl:w-7xl flex flex-col items-center justify-center w-full h-full gap-[30px] py-28 z-1">
         <div className="flex flex-col items-center gap-3.5">
           <h2 className="text-2xl font-light">The Kyro Hub</h2>
-          <h1 className="text-[40px] font-bold">
+          <h2 className="text-[40px] font-bold">
             All Your Business Solutions in One Place
-          </h1>
+          </h2>
           <p className="text-xl font-light text-center w-[782px]">
             Stop juggling between multiple platforms. Design, automate, and
             manage every part of your digital workflow from a single, powerful

@@ -145,7 +145,7 @@ export default function Pricing() {
     >
       <div className="xl:w-7xl flex flex-col items-center justify-center w-full h-full gap-[30px] py-28 z-1">
         <div className="flex flex-col items-center gap-3.5">
-          <h1 className="text-[40px] font-bold">Pricing</h1>
+          <h2 className="text-[40px] font-bold">Pricing</h2>
           <p className="text-xl font-light text-center w-[782px]">
             Simple, transparent pricing to power your business growth
           </p>

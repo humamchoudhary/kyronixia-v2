@@ -19,9 +19,9 @@ export default function Contact() {
         </div>
         <div className="flex flex-col items-end justify-between h-full">
           <div className="flex flex-col items-end ">
-            <h1 className="font-bold text-[40px] w-[484px] text-end">
+            <h2 className="font-bold text-[40px] w-[484px] text-end">
               Let's Build Something Amazing Together
-            </h1>
+            </h2>
             <p className="font-light text-xl mt-[50px] text-end w-[595px]">
               Schedule a free consultation to discuss your project and discover
               how we can help transform your business through technology.

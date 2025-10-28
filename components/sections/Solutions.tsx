@@ -79,11 +79,11 @@ export default function Solutions() {
     >
       <div className="xl:w-7xl flex flex-col items-center justify-center w-full h-full gap-[30px] py-28 z-1">
         <div className="w-full flex flex-row justify-between">
-          <h1 className="text-[40px] font-bold">
+          <h2 className="text-[40px] font-bold">
             Providing
             <br />
             Best Solution
-          </h1>
+          </h2>
           <p className="font-light w-[410px]">
             Propel your business forward in a fast-evolving digital landscape.
             We partner with you to craft stunning websites, intuitive mobile
