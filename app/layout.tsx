@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: {
     default:
       "Kyro - The Future of Digital Innovation | All-in-One Business Platform",
-    template: "%s | Kyro", // This template will be used when pages set their own titles
+    template: "%s | Kyronixia", // This template will be used when pages set their own titles
   },
   description:
     "Transform ideas into digital experiences with Kyro Hub. All-in-one SaaS platform featuring chatbot creation, marketing automation, SEO tools, and analytics. Custom web development, mobile apps, and cloud solutions for SMEs.",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     description:
       "Design, automate, and manage every part of your digital workflow from one powerful platform. Chatbots, marketing automation, SEO tools, and custom development solutions for growing businesses.",
     siteName: "Kyro",
-    url: "https://kyro.com", // Update with actual domain
+    url: "https://kyronixia.com", // Update with actual domain
     images: [
       {
         url: "/opengraph-image.png",
@@ -149,7 +149,7 @@ export const metadata: Metadata = {
 
   // Additional metadata
   alternates: {
-    canonical: "https://kyro.com", // Update with actual domain
+    canonical: "https://kyronixia.com", // Update with actual domain
   },
 };
 
