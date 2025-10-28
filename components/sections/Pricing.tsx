@@ -1,4 +1,15 @@
-const PricingCard = ({ plan }) => {
+interface Plan {
+  id: number;
+  name: string;
+  price: number;
+  currency: string;
+  period: string;
+  bestFor: string;
+  popular: boolean;
+  features: string[];
+}
+
+const PricingCard = ({ plan }: { plan: Plan }) => {
   return (
     <div className="relative flex flex-col p-[30px]  bg-foreground-sec rounded-[20px]  w-[400px]">
       {plan.popular && (
