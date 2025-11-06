@@ -44,7 +44,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex flex-row w-full justify-between items-center xl:w-7xl mx-auto absolute z-100 top-[25px] left-0 right-0 px-4">
+    <nav className="flex flex-row w-full justify-between items-center xl:w-7xl mx-auto absolute z-100 top-[25px] left-0 right-0 ">
       <p className="text-3xl font-null">kyro.</p>
       <div
         className={`w-min fixed mx-auto left-0 right-0 flex flex-row items-center justify-center gap-[50px] bg-white px-10 rounded-full transition-all duration-300 ${

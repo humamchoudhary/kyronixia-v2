@@ -1,10 +1,12 @@
 ---
 title: "Lessons from Steve Jobs"
-category: "business"
+categories: ["business", "technology", "leadership"]
 date: "10-01-2023"
+coverImage: "/images/steve-jobs.jpeg"
+excerpt: "Discover the key lessons we can learn from Steve Jobs' extraordinary life and career, from pursuing passion to embracing simplicity in design."
 ---
 
-# Lessons from Steve Jobs
+## Lessons from Steve Jobs
 
 Steve Jobs, the iconic co-founder of Apple Inc., left an indelible mark on the tech industry and the world. His visionary approach to business, technology, and design revolutionized several industries. Here are some key lessons we can learn from his extraordinary life and career.
 
