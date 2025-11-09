@@ -10,7 +10,7 @@ interface SolutionTileProps {
 }
 
 function SolutionTile({ image, title, description }: SolutionTileProps) {
-  const slug = slugify(title);
+  // const slug = slugify(title);
   return (
     <div className="flex flex-col w-full">
       <div className="flex flex-row justify-between items-center w-full">
@@ -27,7 +27,7 @@ function SolutionTile({ image, title, description }: SolutionTileProps) {
           </p>
 
           <Link
-            href={`/${slug}`}
+            href={`/get-quote?solution=${title}`}
             className="rounded-full border-2 border-foreground-light/60 p-3.5 w-min h-min transition-transform duration-150  hover:-rotate-45"
           >
             <ArrowRight className="transition-transform duration-150" />
