@@ -1,4 +1,5 @@
 import { ArrowUpRight, RefreshCw } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -11,30 +12,33 @@ export default function Hero() {
       <div className="absolute z-0 inset-0 bg-[linear-gradient(rgba(0,0,0,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.02)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
       <div className="absolute z-0 inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(255,255,255,0.8)_70%,rgb(255,255,255)_100%)] pointer-events-none"></div>
 
-      <div className="xl:w-7xl flex flex-col items-center justify-center w-full h-full gap-[30px] pb-[36px] mt-[340px] z-1">
-        <h1 className="text-8xl font-bold text-center w-[820px] pb-4 bg-gradient-to-br from-foreground to-foreground-light bg-clip-text text-transparent">
+      <div className="xl:w-7xl w-2xs flex flex-col items-center justify-center  h-full gap-[30px] pb-9 mt-[340px] z-1">
+        <h1 className="xl:text-8xl text-3xl font-bold text-center xl:w-[820px] w-full pb-4 bg-gradient-to-br from-foreground to-foreground-light bg-clip-text text-transparent">
           The Future of Digital Innovation
         </h1>
-        <p className="text-2xl w-[820px] text-center">
+        <p className="xl:text-2xl text-xs  xl:w-[820px] w-full text-center">
           Transforming ideas into digital experiences that drive growth and
           power business transformation.
         </p>
         <div className="flex flex-row gap-[30px]">
-          <div className="bg-white rounded-full px-6 py-3 font-medium transition-all duration-300 hover:bg-foreground cursor-pointer group">
-            <p className="text-foreground group-hover:text-white transition-all duration-300  cursor-pointer">
+          <Link
+            href={"/#solutions"}
+            className="bg-white rounded-full px-6 py-3 font-medium transition-all flex items-center justify-center duration-300 hover:bg-foreground cursor-pointer group"
+          >
+            <p className="text-foreground group-hover:text-white transition-all duration-300  cursor-pointer xl:text-lg text-xs text-nowrap">
               Explore Solutions
             </p>
-          </div>
+          </Link>
 
           <div className="bg-foreground rounded-full px-6 py-3 font-medium flex flex-row items-center justify-center gap-[4px] group hover:bg-white transition-all duration-150 cursor-pointer ">
-            <p className=" text-white group-hover:text-foreground  transition-all duration-150 cursor-pointer ">
+            <p className=" text-white group-hover:text-foreground  transition-all duration-150 cursor-pointer  xl:text-lg text-xs text-nowrap">
               Open App
             </p>
             <ArrowUpRight className="size-[16px] group-hover:size-20px transition-all duration-150 group-hover:text-foreground text-white cursor-pointer " />
           </div>
         </div>
 
-        <div className="flex flex-row gap-[60px] items-end justify-center h-full">
+        <div className="xl:flex hidden flex-row  gap-[60px] items-end justify-center h-full">
           <div className="w-[278px] h-[254px] bg-foreground rounded-3xl flex flex-col gap-[6px] p-[30px]">
             <RefreshCw color="#fff" size={24} />
             <p className="text-[32px]/[41px] text-white">

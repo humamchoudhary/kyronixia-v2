@@ -23,23 +23,23 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-white py-[110px] px-[84px]">
-      <div className="xl:w-7xl gap-[170px] flex flex-row justify-between mx-auto">
+    <footer className="bg-white py-[110px] xl:px-[84px]">
+      <div className="xl:w-7xl w-2xs xl:gap-[170px] gap-24 flex xl:flex-row flex-col justify-between mx-auto">
         <div className="flex flex-col">
           <p className="text-3xl font-null">kyro.</p>
-          <p className="font-thin  text-nowrap">
+          <p className="font-thin max-sm:text-sm text-nowrap">
             The Realistic Realm Of Technology & Power
           </p>
         </div>
-        <div className="flex flex-row gap-40">
+        <div className="flex xl:flex-row  flex-col gap-12 xl:gap-40">
           {Object.entries(linkSections).map(([title, links]) => (
             <div key={title} className="flex flex-col gap-2">
-              <p className="text-lg text-nowrap">{title}</p>
+              <p className="xl:text-lg text-sm text-nowrap">{title}</p>
               {links.map((link, index) => (
                 <Link
                   key={index}
                   href={link.href}
-                  className="font-thin text-foreground-light hover:text-foreground transition-colors duration-150  text-nowrap"
+                  className="font-thin text-foreground-light hover:text-foreground transition-colors duration-150 max-sm:text-sm text-nowrap"
                 >
                   {link.name}
                 </Link>

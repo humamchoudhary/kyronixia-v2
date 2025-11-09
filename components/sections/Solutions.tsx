@@ -13,30 +13,40 @@ function SolutionTile({ image, title, description }: SolutionTileProps) {
   // const slug = slugify(title);
   return (
     <div className="flex flex-col w-full">
-      <div className="flex flex-row justify-between items-center w-full">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center w-full gap-6 lg:gap-0">
         {/* Left section: image + title */}
-        <div className="flex flex-row items-center">
-          <Image src={image} alt={title} width={399} height={242} />
-          <h3 className="font-bold text-[32px] w-[310px] ml-10">{title}</h3>
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 lg:gap-10">
+          <div className="w-full sm:w-auto flex-shrink-0">
+            <Image
+              src={image}
+              alt={title}
+              width={399}
+              height={242}
+              className="w-full sm:w-[300px] lg:w-[399px] h-auto rounded-lg"
+            />
+          </div>
+          <h3 className="font-bold text-2xl sm:text-3xl lg:text-[32px] lg:w-[310px]">
+            {title}
+          </h3>
         </div>
 
         {/* Right section: description + arrow link */}
-        <div className="flex flex-row items-center">
-          <p className="font-light text-[14px] w-[306px] mr-[50px]">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 lg:gap-[50px]">
+          <p className="font-light text-sm lg:text-[14px] lg:w-[306px]">
             {description}
           </p>
-
           <Link
             href={`/get-quote?solution=${title}`}
-            className="rounded-full border-2 border-foreground-light/60 p-3.5 w-min h-min transition-transform duration-150  hover:-rotate-45"
+            className="rounded-full border-2 border-foreground-light/60 xl:p-3.5 p-1 flex items-center justify-center w-full xl:w-min h-min transition-transform duration-150 hover:-rotate-45 flex-shrink-0"
           >
-            <ArrowRight className="transition-transform duration-150" />
+            <ArrowRight className="transition-transform duration-150 xl:flex hidden " />
+            <p className="block xl:hidden ">Get Qoute</p>
           </Link>
         </div>
       </div>
 
       {/* Divider line */}
-      <div className="w-full h-px bg-foreground-light opacity-20 mt-10" />
+      <div className="w-full h-px bg-foreground-light opacity-20 mt-6 lg:mt-10" />
     </div>
   );
 }
@@ -77,14 +87,14 @@ export default function Solutions() {
       id="solutions"
       className="w-full min-h-screen flex flex-col items-center bg-background-sec relative"
     >
-      <div className="xl:w-7xl flex flex-col items-center justify-center w-full h-full gap-[30px] py-28 z-1">
+      <div className="xl:w-7xl w-2xs flex flex-col items-center justify-center  h-full gap-[30px] py-28 z-1">
         <div className="w-full flex flex-row justify-between">
           <h2 className="text-[40px] font-bold">
             Providing
             <br />
             Best Solution
           </h2>
-          <p className="font-light w-[410px]">
+          <p className="font-light w-[410px] max-sm:hidden">
             Propel your business forward in a fast-evolving digital landscape.
             We partner with you to craft stunning websites, intuitive mobile
             apps, and robust cloud infrastructures, transforming your vision

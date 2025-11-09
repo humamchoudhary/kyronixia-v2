@@ -11,7 +11,7 @@ interface Plan {
 
 const PricingCard = ({ plan }: { plan: Plan }) => {
   return (
-    <div className="relative flex flex-col p-[30px]  bg-foreground-sec rounded-[20px]  w-[400px]">
+    <div className="relative flex flex-col p-[20px] xl:p-[30px]  bg-foreground-sec rounded-[20px]  w-[400px]">
       {plan.popular && (
         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-white px-6 py-2 rounded-full text-sm font-medium">
           Most Popular
@@ -143,10 +143,10 @@ export default function Pricing() {
       id="pricing"
       className="w-full min-h-screen flex flex-col items-center bg-foreground relative text-white"
     >
-      <div className="xl:w-7xl flex flex-col items-center justify-center w-full h-full gap-[30px] py-28 z-1">
+      <div className="xl:w-7xl w-2xs flex flex-col items-center justify-center h-full gap-[30px] py-28 z-1">
         <div className="flex flex-col items-center gap-3.5">
-          <h2 className="text-[40px] font-bold">Pricing</h2>
-          <p className="text-xl font-light text-center w-[782px]">
+          <h2 className="xl:text-[40px] text-lg font-bold">Pricing</h2>
+          <p className="text-xl font-light text-center xl:w-[782px]">
             Simple, transparent pricing to power your business growth
           </p>
         </div>
@@ -159,14 +159,14 @@ export default function Pricing() {
             <p className="font-medium text-[32px] text-white">Enterprise</p>
 
             <p className="font-bold text-xs ">Looking for a custom solution?</p>
-            <p className="w-[585px] text-center my-[30px] font-light text-xs">
+            <p className="xl:w-[585px] text-center my-[30px] font-light text-xs">
               For large-scale deployments with unique requirements, including
               bespoke integrations, custom feature development, and
               service-level agreements (SLAs).
             </p>
 
             <button
-              className={`border border-white rounded-full flex items-center justify-center px-[130px] bg-white hover:bg-transparent transition-all duration-150 hover:cursor-pointer group`}
+              className={`border border-white rounded-full flex items-center justify-center xl:px-[130px] px-9 bg-white hover:bg-transparent transition-all duration-150 hover:cursor-pointer group`}
             >
               <p
                 className={`font-light text-xs py-3 text-foreground group-hover:text-white  transition-all duration-150 cursor-pointer`}

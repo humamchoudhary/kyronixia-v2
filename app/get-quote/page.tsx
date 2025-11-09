@@ -69,10 +69,6 @@ export default function GetQuotePage() {
   return (
     <div className="min-h-screen bg-background relative">
       {/* Decorative elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary opacity-5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary opacity-5 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
-      </div>
 
       <div className="relative z-10 flex flex-col items-center px-4 py-20 mt-44">
         {/* Header Section */}
@@ -102,7 +98,7 @@ export default function GetQuotePage() {
                 {/* Name Field */}
                 <div className="group">
                   <label
-                    className="block text-foreground-sec text-sm font-bold mb-3 tracking-wide uppercase text-xs"
+                    className="block text-foreground-sec font-bold mb-3 tracking-wide uppercase text-xs"
                     htmlFor="name"
                   >
                     Full Name *
@@ -122,7 +118,7 @@ export default function GetQuotePage() {
                 {/* Email Field */}
                 <div className="group">
                   <label
-                    className="block text-foreground-sec text-sm font-bold mb-3 tracking-wide uppercase text-xs"
+                    className="block text-foreground-sec font-bold mb-3 tracking-wide uppercase text-xs"
                     htmlFor="email"
                   >
                     Email Address *
@@ -144,7 +140,7 @@ export default function GetQuotePage() {
                 {/* Company Field */}
                 <div className="group">
                   <label
-                    className="block text-foreground-sec text-sm font-bold mb-3 tracking-wide uppercase text-xs"
+                    className="block text-foreground-sec font-bold mb-3 tracking-wide uppercase text-xs"
                     htmlFor="company"
                   >
                     Company Name
@@ -163,7 +159,7 @@ export default function GetQuotePage() {
                 {/* Solution Selector */}
                 <div className="group">
                   <label
-                    className="block text-foreground-sec text-sm font-bold mb-3 tracking-wide uppercase text-xs"
+                    className="block text-foreground-sec font-bold mb-3 tracking-wide uppercase text-xs"
                     htmlFor="solution"
                   >
                     Select Solution *

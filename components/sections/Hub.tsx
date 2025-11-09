@@ -61,25 +61,25 @@ export default function Hub() {
       id="kyro-hub"
       className="w-full min-h-screen flex flex-col items-center bg-linear-240 to-foreground-sec from-foreground relative text-white"
     >
-      <div className="xl:w-7xl flex flex-col items-center justify-center w-full h-full gap-[30px] py-28 z-1">
+      <div className="xl:w-7xl w-2xs flex flex-col items-center justify-center h-full gap-[30px] py-28 z-1">
         <div className="flex flex-col items-center gap-3.5">
-          <h2 className="text-2xl font-light">The Kyro Hub</h2>
-          <h2 className="text-[40px] font-bold">
+          <h2 className="xl:text-2xl font-light">The Kyro Hub</h2>
+          <h2 className="xl:text-[40px] text-lg font-bold text-center">
             All Your Business Solutions in One Place
           </h2>
-          <p className="text-xl font-light text-center w-[782px]">
+          <p className="xl:text-xl max-sm:hidden text-xs font-light text-center xl:w-[782px]">
             Stop juggling between multiple platforms. Design, automate, and
             manage every part of your digital workflow from a single, powerful
             interface.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-10 w-full h-full mt-[136px]">
+        <div className="grid xl:grid-cols-3 grid-cols-1 gap-10 w-full h-full xl:mt-[136px] mt-10">
           {hubItems.map((item, index) => {
             const IconComponent = item.icon;
             return (
               <div
                 key={index}
-                className="bg-foreground-sec w-full h-[242px] rounded-[20px] flex flex-col p-[30px] justify-between"
+                className="bg-foreground-sec w-full h-48 xl:h-[242px] rounded-[20px] flex flex-col p-[30px] justify-between"
               >
                 <IconComponent size={34} />
                 <div className="flex flex-col">

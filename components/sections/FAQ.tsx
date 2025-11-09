@@ -16,19 +16,19 @@ function FAQTile({ question, answer, isOpen, onToggle }: FAQTileProp) {
         className="flex flex-row justify-between hover:cursor-pointer  mb-4"
         onClick={onToggle}
       >
-        <p className="font-bold text-xl">{question}</p>
+        <p className="font-bold text-lg xl:text-xl">{question}</p>
         <ChevronDown
           size={24}
           className={`transition-all duration-150 ${isOpen && "rotate-180"}`}
         />
       </div>
       <p
-        className={`w-full font-light ${isOpen ? "h-full " : "h-0"} overflow-hidden transition-all duration-300`}
+        className={`w-full font-light ${isOpen ? "h-full " : "h-0"} max-sm:text-sm overflow-hidden transition-all duration-300`}
       >
         {answer}
       </p>
 
-      <div className="w-full h-[1px] bg-foreground-light opacity-20 mb-4 mt-2" />
+      <div className="w-full h-px bg-foreground-light opacity-20 mb-4 mt-2" />
     </div>
   );
 }
@@ -79,13 +79,13 @@ export default function FAQ() {
       id="faq"
       className="w-full h-min flex flex-col items-center bg-background-sec relative"
     >
-      <div className="xl:w-7xl flex flex-row items-stretch justify-between w-full gap-[30px] py-28 z-1">
-        <h2 className="font-bold text-[40px]">
+      <div className="xl:w-7xl w-2xs flex xl:flex-row flex-col items-stretch justify-between gap-[30px] py-28 z-1">
+        <h2 className="font-bold xl:text-[40px] text-3xl">
           Frequently Asked
           <br />
           Questions
         </h2>
-        <div className="flex flex-col w-[700px] pl-16 border-l-foreground-light/50 border-l">
+        <div className="flex flex-col xl:w-[700px] xl:pl-16 border-l-foreground-light/50 xl:border-l">
           {faqs.map((item, index) => {
             return (
               <FAQTile

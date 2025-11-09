@@ -9,8 +9,8 @@ const ArticlesPage = () => {
   const otherArticles = articles.slice(1);
 
   return (
-    <section className="mx-auto w-11/12 md:w-1/2 mt-20 flex flex-col gap-16 mb-20">
-      <header className="text-center">
+    <section className="mx-auto xl:w-7xl w-2xs mt-20 flex flex-col gap-16 mb-20">
+      <header className="text-center mt-40">
         <h1 className="font-cormorantGaramond font-light text-6xl text-neutral-900">
           From the blog
         </h1>
