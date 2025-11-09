@@ -2,7 +2,7 @@
 title: "Mastering Marketing Automation with Kyro Hub"
 categories: ["marketing", "automation", "Kyro Hub", "SME"]
 date: "12-01-2024"
-coverImage: "/images/marketing-automation.jpeg"
+coverImage: "https://via.placeholder.com/1200x630.png?text=Marketing+Automation"
 excerpt: "Unlock efficiency and drive growth for your SME with Kyro Hub's powerful marketing automation features. Learn how to streamline campaigns, engage audiences, and achieve better results."
 ---
 

@@ -2,7 +2,7 @@
 title: "The Ethics of Artificial Intelligence: Navigating the Gray Areas"
 categories: ["artificial intelligence", "ethics", "society"]
 date: "11-02-2025"
-coverImage: "/images/ai-ethics.jpeg"
+coverImage: "https://via.placeholder.com/1200x630.png?text=AI+Ethics"
 excerpt: "As AI becomes more powerful and pervasive, we must confront difficult ethical questions about bias, privacy, accountability, and the future of human agency."
 ---
 

@@ -2,7 +2,7 @@
 title: "The Rise of Quantum Computing: A New Era Begins"
 categories: ["technology", "science", "innovation"]
 date: "11-06-2025"
-coverImage: "/images/quantum-computing.jpeg"
+coverImage: "https://via.placeholder.com/1200x630.png?text=Quantum+Computing"
 excerpt: "Quantum computing is transitioning from theoretical concept to practical reality, promising to solve problems that would take classical computers millennia to process."
 ---
 

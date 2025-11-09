@@ -2,7 +2,7 @@
 title: "The Power of Custom Web Solutions for SMEs"
 categories: ["web development", "custom solutions", "sme", "digital presence"]
 date: "11-08-2025"
-coverImage: "/images/custom-web-solutions.jpeg"
+coverImage: "/images/custom_tech.png"
 excerpt: "Off-the-shelf templates limit growth. Discover how tailored web solutions empower SMEs with unique brand identity, custom functionality, and scalable performance."
 ---
 

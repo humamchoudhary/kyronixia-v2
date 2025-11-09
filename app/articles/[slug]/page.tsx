@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import "./articles.css";
 import { getArticleData, getRelatedArticles } from "@/lib/articles";
 import { ArrowLeft } from "lucide-react";
+import ArticleSidebar from "@/components/ArticleSidebar";
 
 export async function generateMetadata({
   params,
@@ -57,23 +58,11 @@ const Article = async ({ params }: { params: { slug: string } }) => {
         <img src={articleData.coverImage} />
       </div>
       <div className="flex flex-row justify-between gap-10">
-        <div className="sticky top-[20px] bg-white border border-background-sec h-min rounded-[20px] px-[10px] py-[30px] w-[400px]">
-          {articleData.headings.map((item, index) => {
-            return (
-              <Link key={index} href={`#${item.slug}`}>
-                <div className="bg-white hover:bg-background-sec rounded-[10px] px-4 py-2 cursor-pointer ">
-                  <p className="text-sm font-thin">{item.text}</p>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
+        <ArticleSidebar headings={articleData.headings} />
         <article
           className="article w-full gap-3"
           dangerouslySetInnerHTML={{ __html: articleData.contentHtml }}
         />
-
-        <div className="bg-white border border-foreground-light h-min rounded-[20px] p-[30px] w-1/6"></div>
       </div>
     </section>
   );

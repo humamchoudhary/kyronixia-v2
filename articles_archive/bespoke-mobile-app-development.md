@@ -2,7 +2,7 @@
 title: "Bespoke Mobile App Development: Connecting Your Business to Every Customer"
 categories: ["mobile app", "development", "sme", "customer engagement", "technology"]
 date: "11-10-2025"
-coverImage: "/images/mobile-app-development.jpeg"
+coverImage: "/images/mobile_dev.png"
 excerpt: "In a mobile-first world, a custom mobile app can transform how SMEs connect with customers, build loyalty, and streamline operations."
 ---
 

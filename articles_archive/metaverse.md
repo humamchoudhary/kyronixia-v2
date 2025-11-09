@@ -2,7 +2,7 @@
 title: "The Metaverse: Hype or Future Reality?"
 categories: ["virtual reality", "technology", "future"]
 date: "11-04-2025"
-coverImage: "/images/metaverse.jpeg"
+coverImage: "https://via.placeholder.com/1200x630.png?text=Metaverse"
 excerpt: "Explore the evolving concept of the metaverse—a convergence of virtual worlds, augmented reality, and digital economies that could redefine how we interact online."
 ---
 

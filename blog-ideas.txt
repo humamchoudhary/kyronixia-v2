@@ -1,0 +1,123 @@
+For "Kyro Hub" & Your SaaS Product
+
+1. Title: Your SME Is Leaking Money on SaaS Subscriptions
+
+    Intro: That €10/mo app? You have 15 of them. Let's do the math.
+
+    Topic: The financial case for switching to an all-in-one platform and cutting redundant tool costs.
+
+2. Title: The SME's Guide to Escaping 'Tool-mageddon'
+
+    Intro: Juggling 10 different apps to get one thing done? Stop.
+
+    Topic: How a unified hub (like Kyro Hub) saves time, money, and sanity by connecting your business processes.
+
+3. Title: One Hub to Rule Them All: Why Your Business Needs a Central Command Center
+
+    Intro: Your business data shouldn't be scattered like a bad fantasy plot.
+
+    Topic: The strategic advantage of having marketing, SEO, and support in one place.
+
+4. Title: 5 Ways to Make Your Chatbot Genuinely Helpful (Not Annoying)
+
+    Intro: Let's be real: most chatbots are terrible. Yours doesn't have to be.
+
+    Topic: Best practices for deploying an AI chatbot (using Kyro Hub) that actually helps customers.
+
+5. Title: Marketing Automation That Doesn't Feel Like a Robot
+
+    Intro: If your "personalization" is just Dear [First_Name], you're doing it wrong.
+
+    Topic: Using the marketing tools in Kyro Hub to create genuinely personalized campaigns that convert.
+
+6. Title: SEO for People Who Actually Hate SEO
+
+    Intro: You know you need it, but you'd rather be doing literally anything else.
+
+    Topic: How to use integrated SEO tools (like those in Kyro Hub) to get 80% of the results with 20% of the effort.
+
+7. Title: API, A-OK: How to Connect All Your Apps (Without Crying)
+
+    Intro: Getting your apps to talk to each other shouldn't require a peace treaty.
+
+    Topic: The power of Kyro Hub's API in unifying your existing software stack (like Slack, Google Workspace, etc.).
+
+8. Title: The 'SME Productivity Stack': Why Less Is More
+
+    Intro: More tools don't equal more productivity. Usually, it's the opposite.
+
+    Topic: A case study on how consolidating tools into Kyro Hub streamlines workflows.
+
+9. Title: Beyond the Hype: What's Actually in Kyro Hub?
+
+    Intro: A no-fluff breakdown of the tools you'll actually use, day-to-day.
+
+    Topic: A deep dive into the SEO, Marketing, and Chatbot features and how they work together.
+
+10. Title: How to Scale Your SME Without Everything Breaking
+
+    Intro: Growing is great. Your tech stack collapsing under the pressure? Not so great.
+
+    Topic: Using a scalable, integrated hub (Kyro Hub) to manage growth efficiently.
+
+For General Tech & Your Custom Services
+
+11. Title: When 'Good Enough' Software Is Actually Costing You Money
+
+    Intro: That one-size-fits-all software fits... no one. Especially not you.
+
+    Topic: The business case for investing in custom software vs. fighting with off-the-shelf tools.
+
+12. Title: How to Make a Website Template Look Custom (and Expensive)
+
+    Intro: On a budget but don't want to look like it? We get it.
+
+    Topic: Tips and tricks for customizing your pre-built website template for a unique brand identity.
+
+13. Title: Does My Business Really Need a Mobile App? (A Brutally Honest Guide)
+
+    Intro: An app is a big investment. Let's decide if you actually need one.
+
+    Topic: A practical checklist to help SMEs decide between a mobile-responsive site, a PWA, or a native app.
+
+14. Title: What Is "The Cloud" and Why Should I Care?
+
+    Intro: It's not magic, it's just someone else's computer. But it's a very useful one.
+
+    Topic: A simple, no-jargon explanation of cloud services and why they're critical for SME security and scalability.
+
+15. Title: AI Won't Steal Your Job, But Someone Using It Will
+
+    Intro: A practical look at AI for small businesses, minus the robot panic.
+
+    Topic: Simple ways SMEs can start using AI (like chatbots and marketing tools) to get ahead of the competition.
+
+16. Title: The 5-Minute Security Checklist for People Who Aren't "IT Guys"
+
+    Intro: You don't need a fortress, you just need to lock the front door.
+
+    Topic: Simple, non-technical steps any business owner can take today to be safer online.
+
+17. Title: 5 Signs Your Website Is Actively Losing You Customers
+
+    Intro: If your site looks like it was built in 2005, it's a problem.
+
+    Topic: A checklist for bad UI/UX, slow load times, and poor mobile design that drive users away.
+
+18. Title: 'Tech Debt': The Silent Killer of SME Growth
+
+    Intro: That "temporary" fix you implemented two years ago? It's now a monster.
+
+    Topic: Explaining what tech debt is and how investing in good custom software saves money in the long run.
+
+19. Title: Tech Trends That Matter for SMEs (and 3 You Can Safely Ignore)
+
+    Intro: No, you probably don't need a metaverse strategy.
+
+    Topic: Cutting through the hype to focus on tech that delivers real ROI for small businesses.
+
+20. Title: Why Your 'Creative' Website Design Is Confusing Everyone
+
+    Intro: Users don't want a puzzle. They want a "buy" button.
+
+    Topic: The core principles of user-friendly UI/UX design that lead to higher conversions.

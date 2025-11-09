@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { UserRound } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
@@ -13,7 +12,7 @@ export default function Navbar() {
     { label: "Solutions", href: "/#solutions" },
     { label: "Pricing", href: "/#pricing" },
     { label: "Contact", href: "/#contact" },
-    { label: "Blog", href: "/" },
+    { label: "Blog", href: "/articles" },
   ];
   const itemRefs = useRef<(HTMLAnchorElement | null)[]>([]);
 

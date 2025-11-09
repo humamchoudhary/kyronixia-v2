@@ -2,7 +2,7 @@
 title: "5G Revolution: Beyond Faster Smartphones"
 categories: ["telecommunications", "technology", "infrastructure"]
 date: "11-03-2025"
-coverImage: "/images/5g-network.jpeg"
+coverImage: "/images/5g-network.jpg"
 excerpt: "5G technology is about more than download speeds—it's enabling smart cities, autonomous vehicles, and revolutionary changes in healthcare and industry."
 ---
 

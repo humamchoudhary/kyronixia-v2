@@ -2,7 +2,7 @@
 title: "Unlocking Efficiency: How Cloud Solutions Drive Business Growth"
 categories: ["cloud computing", "business growth", "efficiency", "sme", "technology"]
 date: "11-09-2025"
-coverImage: "/images/cloud-solutions.jpeg"
+coverImage: "/images/cloud_sol.png"
 excerpt: "Cloud solutions offer unparalleled scalability, cost-effectiveness, and security, empowering SMEs to innovate faster and achieve sustainable growth."
 ---
 

@@ -2,7 +2,7 @@
 title: "Cybersecurity in 2025: Protecting Your Digital Life"
 categories: ["security", "technology", "privacy"]
 date: "11-05-2025"
-coverImage: "/images/cybersecurity.jpeg"
+coverImage: "https://via.placeholder.com/1200x630.png?text=Cybersecurity"
 excerpt: "As cyber threats become more sophisticated, understanding modern cybersecurity practices is essential for protecting your personal and professional digital assets."
 ---
 
