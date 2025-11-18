@@ -5,12 +5,10 @@ export default function Hero() {
   return (
     <section
       id="#"
-      className="w-full min-h-screen flex flex-col items-center bg-background-sec relative"
+      className="w-full min-h-screen flex flex-col items-center  relative bg-background"
     >
       {/* Grid pattern overlay with fade from sides */}
-      <div className="absolute z-0 inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(120,119,198,0.05),transparent_50%),radial-gradient(circle_at_80%_80%,rgba(255,119,158,0.05),transparent_50%),radial-gradient(circle_at_40%_80%,rgba(120,200,255,0.05),transparent_50%)]"></div>
       <div className="absolute z-0 inset-0 bg-[linear-gradient(rgba(0,0,0,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.02)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
-      <div className="absolute z-0 inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(255,255,255,0.8)_70%,rgb(255,255,255)_100%)] pointer-events-none"></div>
 
       <div className="xl:w-7xl w-2xs flex flex-col items-center justify-center  h-full gap-[30px] pb-9 mt-[340px] z-1">
         <h1 className="xl:text-8xl text-3xl font-bold text-center xl:w-[820px] w-full pb-4 bg-gradient-to-br from-foreground to-foreground-light bg-clip-text text-transparent">

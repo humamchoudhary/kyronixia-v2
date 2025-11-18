@@ -97,7 +97,9 @@ export default function Navbar() {
           <Link
             key={item.label}
             href={item.href}
-            ref={(el) => (itemRefs.current[index] = el)}
+            ref={(el) => {
+              itemRefs.current[index] = el;
+            }}
             className={`cursor-pointer z-10 flex items-center justify-center py-3 xl:px-3 transition-all duration-300 ${
               activeIndex === index ? "font-bold xl:text-white" : "text-black"
             }`}
