@@ -47,9 +47,69 @@ export default function GetQuoteClient() {
     }
   }, [searchParams]);
 
-  const handleSubmit = () => {
-    const data = { ...formData, solution };
-    console.log(data);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: "success" | "error" | null;
+    message: string;
+  }>({ type: null, message: "" });
+
+  const handleSubmit = async () => {
+    // Validation
+    if (!formData.name || !formData.email || !solution || !formData.details) {
+      setSubmitStatus({
+        type: "error",
+        message: "Please fill in all required fields",
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: "" });
+
+    try {
+      const response = await fetch("/api/send-quote", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          solution,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to submit form");
+      }
+
+      // Success
+      setSubmitStatus({
+        type: "success",
+        message:
+          "Quote request sent successfully! We'll get back to you within 24 hours.",
+      });
+
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        company: "",
+        details: "",
+      });
+      setSolution("");
+    } catch (error) {
+      setSubmitStatus({
+        type: "error",
+        message:
+          error instanceof Error
+            ? error.message
+            : "Failed to submit form. Please try again.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleInputChange = (
