@@ -8,44 +8,9 @@
   --color-foreground-light: #737373;
   --color-primary: #121b2d;
 
-  /* Animation keyframes */
-  --animate-fade-in: fadeIn 1s ease-out;
-  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  --animate-slide-up: slideUp 0.6s ease-out;
-  --animate-countdown-pop: countdownPop 0.5s ease-out;
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes slideUp {
-    from {
-      transform: translateY(20px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-  @keyframes countdownPop {
-    from {
-      transform: scale(0.8);
-      opacity: 0;
-    }
-    to {
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
+  --font-space: "var(--font-space-grotesk)", sans-serif;
+  --font-null: "var(--font-null)", sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -53,6 +18,7 @@ html {
 body {
   background: var(--color-background);
   color: var(--color-foreground);
+  font-family: var(--font-space-grotesk), sans-serif;
 }
 
 a {
