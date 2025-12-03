@@ -12,8 +12,6 @@ const nullFont = localFont({
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-space-grotesk",
-
-  display: "swap",
 });
 
 export const metadata: Metadata = {
