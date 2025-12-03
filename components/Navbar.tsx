@@ -111,9 +111,9 @@ export default function Navbar() {
         ))}
       </div>
 
-      <div className="flex flex-row gap-2">
+      {/* <div className="flex flex-row gap-2">
         <UserRound /> <p className="hidden md:block">Create Account</p>
-      </div>
+      </div>*/}
     </nav>
   );
 }

@@ -28,12 +28,16 @@ export default function Hero() {
             </p>
           </Link>
 
-          <div className="bg-foreground rounded-full px-6 py-3 font-medium flex flex-row items-center justify-center gap-[4px] group hover:bg-white transition-all duration-150 cursor-pointer ">
+          <Link
+            href="https://hub.kyronixia.com/"
+            target="_blank"
+            className="bg-foreground rounded-full px-6 py-3 font-medium flex flex-row items-center justify-center gap-[4px] group hover:bg-white transition-all duration-150 cursor-pointer "
+          >
             <p className=" text-white group-hover:text-foreground  transition-all duration-150 cursor-pointer  xl:text-lg text-xs text-nowrap">
               Open App
             </p>
             <ArrowUpRight className="size-[16px] group-hover:size-20px transition-all duration-150 group-hover:text-foreground text-white cursor-pointer " />
-          </div>
+          </Link>
         </div>
 
         <div className="xl:flex hidden flex-row  gap-[60px] items-end justify-center h-full">
